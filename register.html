@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Register
+        </title>
+        <link rel="stylesheet" href="Style/globalstyle.css" />
+        <link rel="stylesheet" href="Style/register.css" />
+        <script>
+            function navFunction(x) {
+                var menu = document.getElementById("mainnav");
+                var maincontent = document.getElementById("content");
+                x.classList.toggle("cross");
+                menu.classList.toggle("slide");
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li id="navButton">
+                    <nav class="menubutton" onclick="navFunction(this)">
+                        <div class="menbar0"></div>
+                        <div class="menbar1"></div>
+                        <div class="menbar2"></div>
+                    </nav>
+                </li>
+                <li>
+                    <a href="register.html">Login/Register</a>
+                </li>
+            </ul>
+        </header>
+        <nav id="mainnav">
+            <ul>
+                <li>
+                    <input type="button" value="YEP PRESS ME" />
+                </li>
+                <li>
+                    <input type="button" value="YEP PRESS ME" />
+                </li>
+                <li>
+                    <input type="button" value="YEP PRESS ME" />
+                </li>
+                <li>
+                    <input type="button" value="YEP PRESS ME" />
+                </li>
+                <li>
+                    <input type="button" value="YEP PRESS ME" />
+                </li>
+            </ul>
+        </nav>
+        <section id="main">
+            <ul id="split">
+                <li>
+                    <div class="register">
+                        <h1>Register</h1>
+                        <div class="box">
+                        <input placeholder="Register" />
+                        <input placeholder="Register" />
+                        <input type="button" value="Test" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="login">
+                        <h1>Login</h1>
+                        <div class="box">
+                        <input placeholder="Login" />
+                        <input placeholder="Login" />
+                        <input type="button" value="Test" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+</html>

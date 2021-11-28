@@ -1,0 +1,44 @@
+@import url("root.css");
+
+#main{
+    width: 95%;
+    background-color: var(--main-color);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 1.5em;
+}
+#split{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+}
+#split li{
+    width: 20%;
+    margin-top: 1.5em;
+}
+#split div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(85, 99, 126);
+    border-radius: 5px;
+}
+#split div input{
+    margin: auto;
+    margin-bottom: 2em;
+
+}
+#split .box{
+    border: snow;
+    border-style: solid;
+    padding: 20px;
+}
+.box input[type=button]{
+    margin-bottom: 0 !important;
+}
+input{
+    width: 200px;
+}
