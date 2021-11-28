@@ -133,7 +133,7 @@ header ul li:not(#mainSearch):hover{
     position: fixed;
     background-color: var(--main-color);
     display: block;
-    max-width: 60%;
+    max-width: 80%;
     top: var(--header-pfush);
     bottom: 0;
     width:15em;
