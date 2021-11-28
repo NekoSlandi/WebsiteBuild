@@ -133,10 +133,10 @@ header ul li:not(#mainSearch):hover{
     position: fixed;
     background-color: var(--main-color);
     display: block;
-    max-width: 80%;
+    max-width: 60%;
     top: var(--header-pfush);
     bottom: 0;
-    width:15em;
+    width:20em;
     transition: transform .5s ease;
     transform: translateX(-101%);
     -webkit-transform: translateX(-101%);
